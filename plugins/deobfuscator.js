@@ -1,4 +1,4 @@
-import fs from 'fs';
+//import fs from 'fs';
 import { webcrack } from 'webcrack';
 let handler = async (m ,{ conn, text }) => {
 
@@ -11,7 +11,7 @@ let handler = async (m ,{ conn, text }) => {
     throw "*هذا الكود غير موجود او فيه خطأ*"
   }
 }
-handler.help = ["deobfuscator"]
-handler.tags = ["tools"]
-handler.command =/^deobfuscator$/i
+//handler.help = ["deobfuscator"]
+//handler.tags = ["tools"]
+//handler.command =/^deobfuscator$/i
 export default handler
