@@ -6,7 +6,7 @@ import { fbdown } from '../lib/scrape.js';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-    if (!args[0]) throw 'تحميل فيديوهات الفيسبوك بجودات متعددة مثال \n\n*.facebook5* https://www.facebook.com/100063533185520/posts/pfbid02wqHMWsNBLWHdLuGHrg1hBvS43FVgky89HY7hzcuvrCfD1j9oBTq4uHfUrMCLshZal/?app=fbl ';
+    if (!args[0]) throw 'تحميل فيديوهات الفيسبوك بجودات متعددة مثال \n\n*.facebook5* (رابط فيديو الفايسبوك الذي تريد تحميله) ';
     const sender = m.sender.split(`@`)[0];
 
     m.reply(wait)
@@ -43,7 +43,7 @@ ${result.description}
         );
     } catch (error) {
         console.error('Handler Error:', error);
-        conn.reply(m.chat, `وقعت مشكلة راسل \ninstagram.com/noureddine_ouafy`, m);
+        conn.reply(m.chat, `وقعت مشكلة راسل \nwa.me/212690943590`, m);
     }
 };
 
