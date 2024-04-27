@@ -6,7 +6,7 @@ import cheerio from 'cheerio'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-    if (!args[0]) throw 'تحميل فيديوهات الفيسبوك مثال \n\n*.facebook4* https://www.facebook.com/100063533185520/posts/pfbid02wqHMWsNBLWHdLuGHrg1hBvS43FVgky89HY7hzcuvrCfD1j9oBTq4uHfUrMCLshZal';
+    if (!args[0]) throw 'تحميل فيديوهات الفيسبوك مثال \n\n*.facebook4* (رابط فيديو الفايسبوك ااذي تريد تحميله)';
     const sender = m.sender.split(`@`)[0];
 
     m.reply(wait)
