@@ -8,7 +8,7 @@ const handler = async (m, {
     command
 }) => {
 
-    const msg = `هذا الأمر خاص بتحميل فيديوات التكتوك مثال :\n*.dlpanda* https://www.tiktok.com/@mr_nima_._._x/video/7185424580108897563`;
+    const msg = `هذا الأمر خاص بتحميل فيديوات التكتوك مثال :\n*.dlpanda* (رابط فيديو التيك توك)`;
     let text
     if (args.length >= 1) {
         text = args.slice(0).join(" ")
@@ -28,7 +28,7 @@ const handler = async (m, {
             }
         } else {
             for (let i = 0; i < data.video.length; i++) {
-                await conn.sendFile(m.chat, data.video[i].src, '', `instagram.com/noureddine_ouafy *(${i + 1}/${data.video.length})*`, m, false, {
+                await conn.sendFile(m.chat, data.video[i].src, '', `wa.me/212690943590 *(${i + 1}/${data.video.length})*`, m, false, {
                     mentions: [m.sender]
                 });
             }
