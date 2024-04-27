@@ -20,18 +20,18 @@ ${usedPrefix + command} FACEBOOK`
   conn.sendMessage(m.chat, {text: bing, contextInfo:
 					{
 	"externalAdReply": {
-							"title": 'BOBIZA BING SEARCHING',
+							"title": 'DINO-BOT BING SEARCHING',
 							"body": '',
 							"showAdAttribution": true,
 							"mediaType": 1,
 							"sourceUrl": '',
-							"thumbnailUrl": 'https://telegra.ph/file/3a22a7e5574face2c6eca.png',
+							"thumbnailUrl": 'https://telegra.ph/file/3f1142ef9e1654f80f167.jpg',
 							"renderLargerThumbnail": true
 
 						}
 					}}, {quoted: m})
 					}).catch(err => {
-					m.reply('حذث خطأ حاول لاحقا او راسل\ninstagram.com/noureddine_ouafy')
+					m.reply('حذث خطأ حاول لاحقا او راسل\nwa.me/212690943590')
 					})
 }
 handler.help = ['bingsearch']
