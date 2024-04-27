@@ -1,7 +1,7 @@
 import { GDriveDl } from '../lib/scrape.js'
 
 let handler = async (m, { conn, args }) => {
-  if (!(args[0] || '').match(/([\w-]){33}|([\w-]){19}/)) throw '*التحميل من منصة غوغل درايف يكفي ان تكتب الامر متبوع برابط من المنصة مثال :*\n\n*.gdrive2* https://drive.google.com/u/0/uc?id=1-XxkNNYHEvKlbPMEMNbgEBg6tgKEC8bO&export=download'
+  if (!(args[0] || '').match(/([\w-]){33}|([\w-]){19}/)) throw '*التحميل من منصة غوغل درايف يكفي ان تكتب الامر متبوع برابط من المنصة مثال :*\n\n*.gdrive2* (رابط ملف من غوغل درايف لينم تحميله)'
 
   const someincludes = ( data, id ) => {
         let res = data.find(el => id.includes(el) )
