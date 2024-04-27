@@ -9,8 +9,8 @@ let handler = async (m, { conn, text }) => {
 		? await conn.profilePictureUrl(m.mentionedJid[0], 'image')
 			: await conn.profilePictureUrl(m.quoted?.sender || m.sender, 'image')
 	if (!image) throw `تعذر جلب الصورة المطلوبة`
-	let level = text || '5', img = await jimp.read(image)
-	img.blur(isNaN(level) ? 5 : parseInt(level))
+	let level = text || '20', img = await jimp.read(image)
+	img.blur(isNaN(level) ? 20 : parseInt(level))
 	img.getBuffer('image/jpeg', (err, buffer) => {
 		if (err) throw err?.message || `تعذر تعتيم الصورة`
 		m.reply(buffer)
