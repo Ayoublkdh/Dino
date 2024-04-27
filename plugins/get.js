@@ -1,4 +1,4 @@
-import got from 'got';
+//import got from 'got';
 import fetch from 'node-fetch';
 import axios from 'axios';
 import { format } from 'util';
@@ -64,7 +64,7 @@ function formatSize(size) {
   return `${size.toFixed(2)} ${units[i]}`;
 }
 
-handler.help = ['get'];
+//handler.help = ['get'];
 handler.tags = ['tools'];
 handler.command = /^(fetch|get)$/i;
 
