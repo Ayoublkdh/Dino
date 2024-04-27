@@ -1,4 +1,4 @@
-import { sandroid1 } from '../lib/scrape.js'
+//import { sandroid1 } from '../lib/scrape.js'
 import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
   if (!text) return conn.reply(m.chat, '\nهذا الامر خاص بالبحث عن التطبيقات في موقع https://an1.com/\n مثال:\n.apkan1 lite', m)
