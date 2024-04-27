@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+//import fetch from "node-fetch";
 
 const handler = async (m, {
     text,
@@ -18,9 +18,9 @@ const handler = async (m, {
     }
 };
 
-handler.command = ["dns"];
-handler.help = ["dns"];
-handler.tags = ["tools"];
+//handler.command = ["dns"];
+//handler.help = ["dns"];
+//handler.tags = ["tools"];
 handler.premium = false;
 export default handler;
 
