@@ -25,13 +25,13 @@ let handler = async (m, { command, usedPrefix, conn, args }) => {
 
   if (!args[1])
     return m.reply(
-      "*Example:*\n.short https://youtu.be/LrsNYeLqRAU 1pt\n\n*اختر واحدة من بين هذه الخيارات*\n" +
+      "*Example:*\n.short https://youtu.be/LrsNeLqRAU 1pt\n\n*اختر واحدة من بين هذه الخيارات*\n" +
         urllist.map((v, index) => "  ○ " + v).join("\n")
     );
 
   if (!urllist.includes(args[1]))
     return m.reply(
-      "نوع URL الذي تم إدخاله غير صحيح أو غير متوفر.\n*Example:*\n.short https://youtu.be/LrsNYeLqRAU 1pt\n\n*اختر واحدة من هذه الخيارت*\n\n" +
+      "نوع URL الذي تم إدخاله غير صحيح أو غير متوفر.\n*Example:*\n.short https://youtu.be/LrsNYLqRAU 1pt\n\n*اختر واحدة من هذه الخيارت*\n\n" +
         urllist.map((v, index) => "  ○ " + v).join("\n")
     );
 
