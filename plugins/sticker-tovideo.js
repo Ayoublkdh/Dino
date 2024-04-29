@@ -35,7 +35,7 @@ let stiker = false
       } catch (e) {
         throw eror
       }
-     await conn.sendFile(m.chat, out, 'tovid.mp4', 'تم عملية تحويل الملصق لفيديو بنجاح \n تابعني في الانستغرام\ninstagram.com/noureddine_ouafy' , m)
+     await conn.sendFile(m.chat, out, 'tovid.mp4', 'تم عملية تحويل الملصق لفيديو بنجاح \n تواصل معي على واتساب\wa.me/212690943590' , m)
 }
 //lo mau apa??
 handler.help = ['tovideo']
