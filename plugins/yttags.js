@@ -8,7 +8,7 @@ let handler = async (m, {
     text,
     command
 }) => {
-if (!text) return m.reply("هذا الامر يمكن من خلاله استخراج الكلمات المفاتيح من كل فيديو على اليوتوب يكفي ان تكتب فقط هكذا على سبيل المثال :\n\n*.yttags* https://www.youtube.com/watch?v=bSCANspTDeE&t=6")
+if (!text) return m.reply("هذا الامر يمكن من خلاله استخراج الكلمات المفاتيح من كل فيديو على اليوتوب يكفي ان تكتب فقط هكذا على سبيل المثال :\n\n*.yttags* رابط فيديو من اليوتيوب")
             await m.reply(wait)
             try {
                 let teks = await getYouTubeTags(text)
