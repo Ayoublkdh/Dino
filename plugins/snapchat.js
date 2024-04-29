@@ -11,7 +11,7 @@ let handler = async (m, {
     usedPrefix,
     command
 }) => {
-    if (!text) return m.reply("التحميل من منصة سناب شات\n\nمثال:\n\n *.snapchat* https://t.snapchat.com/2SeUKN21")
+    if (!text) return m.reply("التحميل من منصة سناب شات\n\nمثال:\n\n *.snapchat* رابط من تطبيق سناب شات")
     // Panggil fungsi getSnapchatVideo dengan URL yang sesuai
     try {
         let res = await getSnapchatVideo(text)
