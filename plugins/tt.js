@@ -8,7 +8,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) {
     throw `*التحميل من منصة التيك توك\n مثال:\n\n ${
       usedPrefix + command
-    } https://www.tiktok.com/@tuanliebert/video/7313159590349212934?is_from_webapp=1&sender_device=pc`;
+    } https://vm.tiktok.com/ZMMprjCH6/`;
   }
 
   try {
@@ -58,7 +58,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
         m.chat,
         videoURL,
         "tiktok.mp4",
-        `اذا كنت تحب بوبيزة فتابع صاحبها 😄\ninstagram.com/noureddine_ouafy`,
+        `للتواصل مع مطور البوت 😄\nwa.me/212690943590`,
         m,
       );
       setTimeout(async () => {
@@ -66,7 +66,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
           m.chat,
           videoURLWatermark,
           "tiktokwm.mp4",
-          `اذا كنت تحب بوبيزة فتابع صاحبها 😄\ninstagram.com/noureddine_ouafy`,
+          `للتواثل مع مطور البوت على واتساب 😄\wa.me/212690943590`,
           m,
         );
         await conn.sendFile(
@@ -78,7 +78,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
         );
         conn.reply(
           m.chat,
-          "اذا كنت تحب بوبيزة فتابع صاحبها 😄\ninstagram.com/noureddine_ouafy",
+          "للتواصل مع مطور البوت 😄\wa.me/212690943590",
           m,
         );
       }, 1500);
@@ -150,7 +150,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
 
       await conn.reply(
         m.chat,
-        "اذا كنت تحب بوبيزة فتابع صاحبها 😄\ninstagram.com/noureddine_ouafy",
+        "للتواصل مع مطور البوت 😄\ wa.me/212690943590",
         m,
       );
     } catch (error2) {
