@@ -9,7 +9,7 @@ const handler = async (m, {
     command
 }) => {
 
-    const msg = `التحميل من انستغرام قد يرسل لك الفيديو عبارة عن صورة \n*.snapsave* https://www.instagram.com/reel/CzR1mHBNA-t`;
+    const msg = `التحميل من انستغرام قد يرسل لك الفيديو عبارة عن صورة \n*.snapsave* رابط فيديو الانستاغرام الذي تريد تحميله`;
     let text
     if (args.length >= 1) {
         text = args.slice(0).join(" ")
@@ -25,7 +25,7 @@ const handler = async (m, {
             return m.reply("لا نتيجة")
         } else {
             for (let i = 0; i < data.length; i++) {
-                await conn.sendFile(m.chat, data[i], '', `instagram.com/noureddine_ouafy *(${i + 1}/${data.length})*`, m, false, {
+                await conn.sendFile(m.chat, data[i], '', `wa.me/212690943590 *(${i + 1}/${data.length})*`, m, false, {
                     mentions: [m.sender]
                 });
             }
