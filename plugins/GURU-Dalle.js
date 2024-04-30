@@ -20,7 +20,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 };
 
-handler.help = ['dalle'];
+handler.help = ['dalle2'];
 handler.tags = ['AI'];
-handler.command = ['dalle', 'رسم', 'ارسم', 'openai2'];
+handler.command = ['dalle2', 'رسم', 'ارسم', 'openai2'];
 export default handler;
