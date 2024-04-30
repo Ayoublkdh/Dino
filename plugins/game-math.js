@@ -29,7 +29,7 @@ _📌مثال : ${usedPrefix+command} صعب_
         }, math.time)
     ]
 }
-handler.help = ['Maths <modes>']
+handler.help = ['رياضيات <الصعوبة>']
 handler.tags = ['game']
 handler.command = ['maths', 'math', 'matemáticas', 'ganit','رياضيات','الرياضيات'] 
 
