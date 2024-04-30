@@ -29,8 +29,8 @@ let handler = async (m, {
         throw eror
     }
 }
-handler.help = ["freepik"]
-handler.tags = ["internet"]
+handler.help = ["فريبيك"]
+handler.tags = ["search"]
 handler.command = /فريبيك$/i
 
 export default handler
