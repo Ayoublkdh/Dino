@@ -31,7 +31,7 @@ let handler = async (m, {
 
     return conn.sendMessage(m.chat, {
         image: result,
-        caption: `*تابع صانع البوت فى إنستجرام ❤️* \n https://www.instagram.com/ovmar_1`,
+        caption: `*للتواصل عبر واتساب ❤️* \n wa.me/212690943590`,
         mentions: [m.sender]
     }, {
         quoted: m
