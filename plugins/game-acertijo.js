@@ -31,8 +31,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     ]
 }
 
-handler.help = ['acertijo']
+handler.help = ['أنميك']
 handler.tags = ['game']
-handler.command = /^(سؤال_انمي|سؤال)$/i
+handler.command = /^(أنميك)$/i
 
 export default handler
