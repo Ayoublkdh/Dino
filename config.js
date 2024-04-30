@@ -10,23 +10,23 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['212717457920', 'bobiza', true],
+  ['212690943590', 'dino-bot', true],
 
-  ['212717457920','bobiza', true],
-  ['212717457920'],
-  ['212717457920']
+  ['212690943590','LEADER-DINO BOT', true],
+  ['212690943590'],
+  ['212690943590']
 ];
 
-global.suittag = ['212717457920'];
-global.prems = ['212717457920'];
+global.suittag = ['212690943590'];
+global.prems = ['212690943599'];
 
-global.packname = 'bobiza bot';
-global.author = 'bobiza';
-global.wm = 'bobiza';
-global.titulowm = 'bobiza';
-global.titulowm2 = `bobiza`
-global.igfg = 'bobiza';
-global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/noureddine_ouafy';
+global.packname = 'LEADER-DINO bot';
+global.author = 'LEADER-DINO';
+global.wm = 'LEADER-DINO';
+global.titulowm = 'LEADER-DINO';
+global.titulowm2 = `LEADER-DINO`
+global.igfg = 'LEADER-DINO';
+global.wait = '*|🦖😎| جاري التحميل الآن...*\n*الديناصور يقوم بتلبية طلبكم الآن أيها الأصدقاء الكرام* 🦖🔥😎\wa.me/212690943590';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -45,11 +45,11 @@ global.mes = d.toLocaleDateString('en', {month: 'long'});
 global.año = d.toLocaleDateString('en', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nBOBIZA`;
-global.gt = 'BOBIZA';
-global.mysticbot = 'The BOBIZA';
-global.md = 'https://instagram.com/noureddine_ouafy';
-global.mysticbot = 'https://instagram.com/noureddine_ouafy';
+global.wm2 = `${dia} ${fecha}\nLEADER-DINOSAUR`;
+global.gt = 'DINOSAUR-BOT';
+global.mysticbot = 'The LEADER';
+global.md = 'wa.me/212690943590';
+global.mysticbot = 'wa.me/212690943590';
 global.waitt = '*[ ⏳ ] LOADING...*';
 global.waittt = '*[ ⏳ ] LOADING...*';
 global.waitttt = '*[ ⏳ ] LOADING...*';
