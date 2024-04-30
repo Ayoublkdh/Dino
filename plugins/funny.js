@@ -462,6 +462,8 @@ let handler = m => m;
 
 
 
+	     handler.help = ['cut'];
+	     handler.tags = ['funny'];
        ];
    }
    if (responses) { 
