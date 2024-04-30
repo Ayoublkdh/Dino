@@ -11,7 +11,7 @@ let handler = async (m, {
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw "*_أكتب نص مع هاذا الأمر لإنشاء لوغو_*\n\n *مثال الإستخدام*\n .tweetc JITOSSA"
+    } else throw "*_أكتب نص مع هاذا الأمر لإنشاء لوغو_*\n\n *مثال الإستخدام*\n .tweetc AYOUB"
 
     await m.reply(*_جارى إنشاء لوغو لك قريبا ..._*)
 
@@ -24,7 +24,7 @@ let handler = async (m, {
         const retweets = part1
         const theme = "dark"
         const url = `https://some-random-api.com/canvas/misc/tweet?displayname=${encodeURIComponent(name)}&username=${encodeURIComponent(username)}&avatar=${encodeURIComponent(avatar)}&comment=${encodeURIComponent(text)}&replies=${encodeURIComponent(replies)}&retweets=${encodeURIComponent(retweets)}&theme=${encodeURIComponent(theme)}`
-        conn.sendFile(m.chat, url, "tweet.png", "> _JITOSSA LOGO_ \n\n www.instagram.com/ovmar_1", m)
+        conn.sendFile(m.chat, url, "tweet.png", "> _LEADER LOGO_ \n\n wa.me/212690943590", m)
     } catch (e) {
         await m.reply(eror)
     }
