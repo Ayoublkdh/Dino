@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) throw `*هذا الأمر ينشئ صورًا من النصوص*\n\n*مثال الاستخدام*\n*◉ ${usedPrefix + command} فتاة أنمي جميلة*\n*◉ ${usedPrefix + command} إيلون ماسك باللون الوردي*`;
+    if (!text) throw `*هذا الأمر ينشئ صورًا من النصوص*\n\n*مثال الاستخدام*\n*◉ ${usedPrefix + command} فتاة مع قطتها*\n*◉ ${usedPrefix + command} ولد غريب*`;
 
     try {
         m.reply(wait);
@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         
         if (response.ok) {
             const imageBuffer = await response.buffer();
-            await conn.sendFile(m.chat, imageBuffer, 'jitossa.png', '_تابعني على إنستجرام 🥰_ \n www.instagram.com/ovmar_1', m);
+            await conn.sendFile(m.chat, imageBuffer, 'jitossa.png', '_للتواصل على واتساب 🥰_ \n wa.me/212690943590', m);
         } else {
             throw '*فشل إنشاء الصورة*';
         }
