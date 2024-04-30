@@ -62,9 +62,9 @@ const handler = async (m, {
         // تحميل الصورة
         let img = await q.download?.()
         // معالجة الصورة وإضافة العلامة المائية
-        let output = await processImage(img, 'JITOSSA')
+        let output = await processImage(img, 'LEADER')
         // إرسال الصورة المعالجة مع العلامة المائية
-        await conn.sendFile(m.chat, output, 'drawever.jpg', 'تابعني على إنستجرام 🥰\nwww.instagram.com/ovmar_1', m)
+        await conn.sendFile(m.chat, output, 'drawever.jpg', 'للتواصل عبر واتس اب 🥰\nwa.me/212690943590', m)
     } catch (error) {
         console.error(error);
     }
