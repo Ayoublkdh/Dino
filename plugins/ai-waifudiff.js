@@ -24,7 +24,7 @@ handler.tags = ['drawing']
 handler.command = /^(waifudiff)$/i
 
 handler.premium = false
-handler.limit = 2
+handler.limit = false
 handler.register = false
 
 export default handler
