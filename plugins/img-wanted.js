@@ -17,6 +17,6 @@ let handler = async (m) => {
 }
 handler.help = ['wanted']
 handler.tags = ['image-edit']
-handler.command = ['wanted]
+handler.command = ['wanted']
 
 export default handler
