@@ -31,7 +31,8 @@ ${storytime.text}`, m);
   }
 };
 handler.tags = ['frases'];
-handler.command = handler.help = ['رومانسي', 'رومانسيه', 'انصحني'];
+handler.help = ['انصحني','رومانسية]
+handler.command = handler.help = ['رومانسية', 'انصحني'];
 export default handler;
 
 async function cerpen(category) {
