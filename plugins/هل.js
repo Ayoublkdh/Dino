@@ -6,7 +6,7 @@ let handler = async (m, { command, text }) => m.reply(`
 `.trim(), null, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})
-handler.help = ['pregunta <texto>?']
-handler.tags = ['kerang']
+handler.help = ['هل <التكملة ...>?']
+handler.tags = ['fun']
 handler.command = /^هل$/i
 export default handler
