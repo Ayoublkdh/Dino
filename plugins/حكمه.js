@@ -3,7 +3,8 @@
 const handler = async (m, {conn, text}) => {
   m.reply(`╆❂━━━━━━❨🌿❩━━━━━━❂╆\n*〄⊱حـكـمة⊰☀️⊱الـيـوم⊰〄*\n\n➢ *"${pickRandom(global.hekma)}"*\n╆❂━━━━━━❨🌿❩━━━━━━❂╆`);
 };
-handler.tags = ['frasss'];
+handler.help = ['حكمة'];
+handler.tags = ['fun'];
 handler.command = ['حكمه','حكمة'];
 export default handler;
 
