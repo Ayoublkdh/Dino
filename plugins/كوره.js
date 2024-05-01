@@ -17,7 +17,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   *🜋↫╎الـجـائزة💰↞ ${poin} نقاط┇*
 ∞┇━━━ •🐉• ━━━┇∞
 *✠ ~تــ✍︎ــوقــيــع ↯:~*
-『𝙕𝙊𝙍𝙊-𝘽𝙊𝙏』
+『LEADER-DINO 𝘽𝙊𝙏』
      `.trim()
     conn.tebakbendera[id] = [
         await conn.sendFile(m.chat, json.img, '', caption, m),
@@ -28,8 +28,8 @@ let handler = async (m, { conn, command, usedPrefix }) => {
         }, timeout)
     ]
 }
-handler.help = ['guessflag']
+handler.help = ['كورة']
 handler.tags = ['game']
-handler.command = /^كوره/i
+handler.command = /^كوره|كورة/i
 
 export default handler 
