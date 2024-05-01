@@ -1,7 +1,7 @@
 let handler  = async (m, { conn }) => {
 conn.reply(m.chat,`*╔──══──═❘『⛩️』❘═──══──╗*\n          \n*『${pickRandom(global.wisuiska)}』*\n*╚──══──═❘『⛩️』❘═──══──╝*`, m)
 }
-handler.help = ['jwhsjs']
+handler.help = ['فزورة']
 handler.tags = ['fun']
 handler.command = /فزوره|فزورة/i
 export default handler
