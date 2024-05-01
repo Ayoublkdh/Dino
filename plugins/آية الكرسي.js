@@ -7,9 +7,9 @@ let handler = async (m, { conn }) => {
 `.trim()
   m.reply(caption)
 }
-handler.help = ['ayatkursi']
+handler.help = ['اية-الكرسي']
 handler.tags = ['quran']
-handler.command = /^(ayat)$/i
+handler.command = /^(آية-الكرسي|أية-الكرسي|اية-الكرسي)$/i
 
 
 export default handler
