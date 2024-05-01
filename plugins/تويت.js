@@ -1,7 +1,7 @@
 let handler  = async (m, { conn }) => {
 conn.reply(m.chat,`*♚  مرحبا بك في قسم تويت ♚*\n          ꔹ━━━━━━━━━━━ꔹ\n*『${pickRandom(global.bsbskdh)}』*\n*ꔹ━━━━━ꔹ❰ MOP ❱ꔹ━━━━━ꔹ*`, m)
 }
-handler.help = ['jsbzk']
+handler.help = ['تويت']
 handler.tags = ['fun']
 handler.command = /تويت/i
 export default handler
