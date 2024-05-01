@@ -16,12 +16,12 @@ let handler = async (m, {
     ]
 
     let [feature, inputs, inputs_, inputs__, inputs___] = text.split("|")
-    if (!lister.includes(feature)) return m.reply("*مثال:* .wattpad search|vpn\n\n*اختر نوعًا متوفرًا*\n" + lister.map((v, index) => "  ○ " + v).join("\n"))
+    if (!lister.includes(feature)) return m.reply("*مثال:* .wattpad search|قصة حب\n\n*اختر نوعًا متوفرا، اختر سيرس و اكتب ما تريد البحث عنه، للبحث عن قصة او رواية على تطبيق واتباد و بعد الحصول على الرابط اكتب الامر متبوعا بكلمة list ثم قم بلصق الرابط الذي حصلت عليه و سوف تحصل على رابط آخر عند الحثول عليه اكتب الامر متبوعا بكلمة read و سوف يرسل لك البوت القصة*\n" + lister.map((v, index) => "  ○ " + v).join("\n"))
 
     if (lister.includes(feature)) {
 
         if (feature == "search") {
-            if (!inputs) return m.reply("أدخل رابط الاستعلام\nمثال: .wattpad read|5\nالقائمة: .wattpad list")
+            if (!inputs) return m.reply("أدخل رابط الاستعلام\nمثال: .wattpad read|بعد حصولك على الرابط الاخير من list\nالقائمة: .wattpad list| اكتب هذا الامر بعد حصولك على الرابط الاول من السيرش")
             await m.reply(wait)
             try {
                 let res = await searchWattpad(inputs)
@@ -64,7 +64,7 @@ let handler = async (m, {
 
 
         if (feature == "read") {
-            if (!inputs) return m.reply("أدخل رابط الاستعلام\nمثال: .wattpad read|5\nالقائمة: .wattpad list")
+            if (!inputs) return m.reply("أدخل رابط الاستعلام\nمثال: .wattpad read|استعمل هذا الامر بعد استعمالك list و الحصول على الرابط الثاني ليرسل لك البوت القصة\nالقائمة: .wattpad list| استعمل هذا الامر بعد حصولك على الرابط الاول من البحث عن القصة التي تريد")
             await m.reply(wait)
             try {
 
