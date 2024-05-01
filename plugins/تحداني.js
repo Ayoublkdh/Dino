@@ -1,7 +1,7 @@
 let handler  = async (m, { conn }) => {
-conn.reply(m.chat,`*┌────「 سؤال 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 ZORO BOT 」─*`, m)
+conn.reply(m.chat,`*┌────「 سؤال 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 LEADER-DINO BOT 」─*`, m)
 }
-handler.help = ['reto']
+handler.help = ['تحداني']
 handler.tags = ['fun']
 handler.command = /تحداني/i
 export default handler
