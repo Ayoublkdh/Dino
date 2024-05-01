@@ -2,7 +2,8 @@ let handler = async (m, { conn, text}) => {
 
 m.reply(`*╔═══════════════════════════*\n➢ *"${pickRandom(global.piropo)}"*\n*╚═══════════════════════════*`)
 }
-handler.tags = ['frases']
+handler.help = ['نصائح']
+handler.tags = ['fun']
 handler.command = ['نصائح']
 export default handler
 
