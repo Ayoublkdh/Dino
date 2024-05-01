@@ -13,7 +13,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     try {
         let data = await textToImage(text)
         if (data) {
-            await conn.sendFile(m.chat, data.result_url, '', `صورة لـ ${text} \n www.instagram.com/ovmar_1`, m, false, { mentions: [m.sender] });
+            await conn.sendFile(m.chat, data.result_url, '', `صورة لـ ${text} \n wa.me/212690943590`, m, false, { mentions: [m.sender] });
         }
     } catch (e) {
         await m.reply('حدث خطأ أثناء معالجة الطلب')
