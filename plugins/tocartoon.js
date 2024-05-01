@@ -120,7 +120,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 					m.chat,
 					response.download.full,
 					"",
-					"تابعني على إنستجرام \n https://instagram.com/ovmar_1",
+					"للتواصل عبر واتساب \n wa.me/212690943590",
 					m
 				);
 				let name = await conn.getName(m.sender),
