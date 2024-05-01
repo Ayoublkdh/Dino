@@ -5,14 +5,14 @@ let handler = async (m, { text, command, usedPrefix }) => {
     let result = await happymod(text)
     let teks = result.map((v, i) => {
         return `
-> *بحث جيطوسة*
+> *بحث الديناصور 🦖*
 *${i + 1}.* ${v.name}
 ❃ Link: ${v.link}
 `.trim()
     }).filter(v => v).join('\n\n\n')
     await m.reply(teks)
 }
-handler.help = ['happymods'].map(v => v + ' <query>')
+handler.help = ['happymod'].map(v => v + ' <query>')
 handler.tags = ['search']
 handler.command = /^happymod$/i
 export default handler
