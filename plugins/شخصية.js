@@ -7,8 +7,8 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
       "غبي",
       "صبور",
       "خاين",
-      "حيوان",
-      "سيمب",
+      "لطيف",
+      "شجاع",
       "لطيف",
       "قليل الادب",
       "نسونجي",
@@ -17,7 +17,7 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
       "ذكي",
       "خجول",
       "تافه",
-      "مز/ه",
+      "جميل/ة",
       "كيوت",
     ]
     const userCharacterSeletion =
@@ -28,9 +28,9 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
     conn.sendMessage(m.chat, { text: message, mentions: [mentionedUser] }, { quoted: m })
     
 }
-handler.help = ["character @tag"]
+handler.help = ["الشخصية @tag"]
 handler.tags = ['fun']
-handler.command = /^(شخصية)/i
+handler.command = /^(الشخصية)/i
 
 export default handler 
 /*
