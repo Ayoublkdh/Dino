@@ -29,10 +29,10 @@ let handler = async (m, { conn, usedPrefix }) => {
     }, timeout)
   ]
 }
-handler.help = ['tebakgame']
+handler.help = ['العاب']
 handler.tags = ['game']
 handler.command = /^العاب/i
-handler.limit = true
-handler.group = true
+handler.limit = false
+handler.group = false
 
 export default handler
