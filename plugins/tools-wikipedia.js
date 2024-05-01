@@ -10,7 +10,7 @@ let handler = async (m, { text }) => {
 	const $ = cheerio.load(link.data)
 	let wik = $('#firstHeading').text().trim()
 	let resulw = $('#mw-content-text > div.mw-parser-output').find('p').text().trim()
-	m.reply(`▢ *J I T O S S A*
+	m.reply(`▢ L E A D E R DINO*
 
 ‣ Buscado : ${wik}
 
