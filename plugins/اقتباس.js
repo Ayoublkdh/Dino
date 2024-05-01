@@ -11,6 +11,6 @@ let handler = async (m, { conn, usedPrefix }) => {
   }
 }
 handler.command = ['اقتباس','أقتباس','اقتباسات','الاقتباسات']
-handler.tags = ['اقتباس']
-handler.help = ['اقتباس عشوائي']
+handler.tags = ['fun']
+handler.help = ['اقتباس']
 export default handler
