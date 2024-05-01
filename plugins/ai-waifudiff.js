@@ -3,7 +3,7 @@ import fetch from "node-fetch"
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     let wm = global.wm
 
-    if (!text) throw `*هاذا الأمر يقوم بتوليد صور أنمي بالكتابة فقط قم بالإبداع* \n\n *مثال الإستخدام*\n.waifudif girl with dinosaur`
+    if (!text) throw `*هاذا الأمر يقوم بتوليد صور أنمي بالكتابة فقط قم بالإبداع* \n\n *مثال الإستخدام*\n.leaderdif girl with dinosaur`
     await m.reply(wait)
 
     await conn.relayMessage(m.chat, { reactionMessage: { key: m.key, text: '👌' } }, { messageId: m.key.id })
@@ -19,9 +19,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
 }
 
-handler.help = ['waifudif']
+handler.help = ['leaderdif']
 handler.tags = ['drawing']
-handler.command = /^(waifudif)$/i
+handler.command = /^(leaderdif)$/i
 
 handler.premium = false
 handler.limit = false
