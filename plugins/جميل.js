@@ -111,7 +111,7 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
     conn.sendMessage(m.chat, { text: message, mentions: [mentionedUser] }, { quoted: m })
     
 }
-handler.help = ["character @tag"]
+handler.help = ["جميل @tag"]
 handler.tags = ['fun']
 handler.command = /^(جميل)/i
 
