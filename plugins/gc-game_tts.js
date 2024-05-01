@@ -66,7 +66,7 @@ ${arr.slice(6).join('')}
     
 }
 
-handler.help = ['tictactoe <tag number>']
+handler.help = ['اكس <رقم>']
 handler.tags = ['game']
 handler.command = ['tictactoe', 'ttc', 'اكس', 'xo']
 
