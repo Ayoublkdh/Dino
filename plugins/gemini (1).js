@@ -4,7 +4,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   try {
     
     if (!text) {
-      return conn.reply(m.chat, `*مرحبا أنا ذكي*\n *كيف يمكنني مساعدتك في أي شئ مثال*\n\n .ذكي ماهيا لغة JavaScript`, m);
+      return conn.reply(m.chat, `*مرحبا أنا مريم*\n *كيف يمكنني مساعدتك في أي شئ مثال*\n\n .مريم ماهيا لغة JavaScript`, m);
     }
       
     await m.reply(wait)
@@ -28,12 +28,12 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 };
 
-handler.help = ['ذكي'];
+handler.help = ['مريم'];
 handler.tags = ['ai'];
 handler.limit = false;
 handler.register = false;
 
-handler.command = /^(ذكي)$/i;
+handler.command = /^(مريم)$/i;
 
 export default handler;
 
