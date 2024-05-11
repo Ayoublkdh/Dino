@@ -21,7 +21,7 @@ if (/^احمد كانكي$/i.test(m.text) ) { //sem prefixo
    if (/^غابيمارو$/i.test(m.text) ) { //sem prefixo 
      conn.reply(m.chat, `الحزين البأس 🥺💔`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
    }
-    if (/^غوجو$/i.test(m.text) ) { //sem prefixo 
+    if (/^رضى$/i.test(m.text) ) { //sem prefixo 
      conn.reply(m.chat, `اقوي واحد في العالم❤️‍🔥`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
     } 
 
@@ -34,12 +34,12 @@ if (/^احمد كانكي$/i.test(m.text) ) { //sem prefixo
 
  } 
 
-   if (/^سوكونا$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat,'عمو الشرير 🥺',m) //wm, null, [['Menu', '#menu']], m) botones :v
+   if (/^مولر$/i.test(m.text) ) { //sem prefixo 
+     conn.reply(m.chat,'عمي الشرير 😎',m) //wm, null, [['Menu', '#menu']], m) botones :v
 
    }
 
-   if (/^رايلي|rayli|leader|الليدر$/i.test(m.text) ) { //sem prefixo
+   if (/^رايلي|rayli|leader|الليدر|ياسر|ليدر|yassir|Messi$/i.test(m.text) ) { //sem prefixo
      conn.reply(m.chat,'عمك ',m) //wm, null, [['Menu','#menu']], m) botones :v
 
    }
