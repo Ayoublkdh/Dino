@@ -21,6 +21,6 @@ await m.react('✅')
 handler.help = ['instagram3']
 handler.tags = ['downloader']
 handler.limit = true
-handler.command = /^(i(nsta)?g(ram)?3)$/i
+handler.command = /^(instagram3)$/i
 
 export default handler
