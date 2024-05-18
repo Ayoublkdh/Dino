@@ -46,7 +46,7 @@
           await conn.sendMessage(m.chat, doc, { quoted: m });
 
   };
-  handler.help = ['spotify'];
+  handler.help = ['spotify3'];
   handler.tags = ['downloader'];
   handler.command = /^(spotify3)$/i;
 
