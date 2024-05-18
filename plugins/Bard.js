@@ -9,7 +9,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
 		text: txt,
 		contextInfo: {
 			externalAdReply: {
-				title: `👻KOBY-BOT-MD👻`,
+				title: `🦖LEADER-DINO BOT🦖😎`,
 				body: wm,
 				sourceUrl: "",
 				mediaType: 2,
