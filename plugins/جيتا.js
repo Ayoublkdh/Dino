@@ -24,7 +24,7 @@ let gitagptHandler = async (m, { text, usedPrefix, command }) => {
     throw `*خطا راسل المطور علي قطينة*`;
   }
 };
-gitagptHandler.help = ['gitagpt']
+gitagptHandler.help = ['جيتا']
 gitagptHandler.tags = ['AI']
 gitagptHandler.command = ['جيتا'];
 gitagptHandler.diamond = false;
