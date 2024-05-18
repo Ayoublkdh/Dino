@@ -38,7 +38,7 @@ XP : *${user.exp - min}/${xp}*
     }
 }
 
-handler.help = ['levelup']
+handler.help = ['lvl']
 handler.tags = ['xp']
 
 handler.command = ['لفل', 'lvl', 'levelup', 'مستواي', 'مستوا','رانك'] 
