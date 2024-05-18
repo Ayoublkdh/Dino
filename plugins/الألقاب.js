@@ -38,11 +38,11 @@ let handler = async function (m, { conn, args }) {
   conn.reply(m.chat, namesList.trim(), m);
 }
 
-handler.help = ['قائمة'];
-handler.tags = ['قائمة', 'أسماء', 'عربية'];
-handler.command = ['القاب', 'الألقاب', 'الالقاب'];
+handler.help = ['الألقاب'];
+handler.tags = ['للأدمن في المجموعات'];
+handler.command = ['الألقاب', 'الالقاب'];
 handler.group = true;
-handler.admin = false;
+handler.admin = true;
 handler.botAdmin = false;
 handler.fail = null;
 
