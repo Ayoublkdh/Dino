@@ -62,7 +62,7 @@ ${wait}`
         }
     }
 }
-handler.help = ["bookspdf"]
+handler.help = ["كتب"]
 handler.tags = ["internet"]
 handler.command = /^(كتب)$/i
 export default handler
