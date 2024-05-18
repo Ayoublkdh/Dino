@@ -53,7 +53,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   }
 };
 
-handler.help = ['play'].map((v) => v + ' <pencarian>')
+handler.help = ['تحميل'].map((v) => v + ' <العنوان>')
 handler.tags = ['downloader']
 handler.command = /^تحميل$/i
 
