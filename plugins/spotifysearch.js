@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text }) => {
-  if (!text) throw 'البحث في منصة سبوتيفاي 🌟\n\nالرجاء إدخال الكلمات الرئيسية للبحث عن الأغاني على Spotify.\n\nمثال :\n*.spotifysearch* salade coco';
+  if (!text) throw 'البحث في منصة سبوتيفاي 🌟\n\nالرجاء إدخال الكلمات الرئيسية للبحث عن الأغاني على Spotify.\n\nمثال :\n*.spotifysearch* سورة البقرة';
   try {
     let json = await searchSpotifyTracks(text);
     if (json.length < 1) throw '❌ *Spotify Search* \n\nلم يتم العثور على نتائج.';
