@@ -12,11 +12,11 @@ let BK0 = await BK7.download()
 let BK9img = await (uploader)(BK0)
 let BK9api = await (await fetch(`https://api.bk9.site/ai/geminiimg?url=${BK9img}&q=${text}`)).json()
 conn.sendMessage(m.chat, { text: BK9api.BK9 }, { quoted: m })
-} else throw `*منشــن الصـوره واكتـب سـؤالك🥸*\n\n*مثال : .دحيح من هذا ( متنسـاش تمنشـن الصـوره🦦 )*`
+} else throw `*منشــن الصـوره واكتـب سـؤالك🥸*\n\n*مثال : .مريم من هذا ( متنسـاش تمنشـن الصـوره🦦 )*`
 }
 handler.tags = ['ai']
-handler.command = /^(دحيح)$/i;
+handler.command = /^(مريم)$/i;
 
-handler.limit = true
+handler.limit = false
 
 export default handler
