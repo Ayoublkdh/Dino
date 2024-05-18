@@ -8,9 +8,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!who) throw `□ منشن الشخص`
     let users = global.db.data.users
     users[who].banned = true
-    conn.reply(m.chat, `@${who.split`@`[0]} لن تستطيع استخدام اوامر بعد الان !`, m, { mentions: [who] })
+    conn.reply(m.chat, `@${who.split`@`[0]} لن تستطيع استخدام البوت مؤقتاً !`, m, { mentions: [who] })
 }
-handler.help = ['ban @user']
+handler.help = ['قيد @المستخدم']
 handler.tags = ['owner']
 handler.command = /^بان|قيد$/i
 handler.rowner = true
