@@ -22,10 +22,10 @@ let handler = async (m, {
                 await m.reply(data);
             }
     } catch (e) {
-        await m.reply('حدثت مشكلة راسل صاحب البوت\ninstagram.com/ali_quteenah')
+        await m.reply('حدثت مشكلة راسل صاحب البوت\nwa.me/212690943590')
     }
 }
-handler.help = ["blackboximg"]
+handler.help = ["طباعة"]
 handler.tags = ["ai"];
 handler.command = /^(طباعة|طباعه)$/i
 handler.premium = false
