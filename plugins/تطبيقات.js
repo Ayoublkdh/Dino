@@ -57,8 +57,8 @@ let handler = async (m, {
         }
     }
 }
-handler.help = ["uapkpro"]
-handler.tags = ["applications"]
+handler.help = ["تطبيقات"]
+handler.tags = ["تحميل التطبيقات"]
 handler.command = /^(تطبيقات)$/i
 handler.premium = false
 export default handler
