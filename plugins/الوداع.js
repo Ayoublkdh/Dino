@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, isROwner, isOwner }) => {
     m.reply('*تـــم تـحديــث رســالــة الـوداع !*')
   } else throw `*أدخــل الــرسالــه !*\n*أكــتب @user اذا اردت ان يــكون بــها مـنشـن !*`
 }
-handler.help = ['setbye <text>']
+handler.help = ['الوداع <text>']
 handler.tags = ['group']
 handler.command = ['الوداع'] 
 handler.admin = true
