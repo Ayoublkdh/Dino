@@ -1,7 +1,7 @@
 import ytdl from "ytdl-core";
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) return m.reply("هذا الامر خاص بتحميل فيديوات اليوتوب على شكل document مثال :\n*.ytmp4* https://www.youtube.com/watch?v=LrsNYeLqRAU&t=0 ");
+  if (!text) return m.reply("هذا الامر خاص بتحميل فيديوات اليوتوب على شكل document مثال :\n*.ytmp4* رابط فيديو اليوتيوب الذي تريد تحميله ");
   let obj = await ytmp3(text);
   let title = obj.meta.title;
   conn.sendFile(m.chat, obj.buffer, title + ".mp4", "", m, 0, {
