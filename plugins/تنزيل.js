@@ -4,7 +4,7 @@ import os from 'os';
 
 let limit = 500;
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
-  if (!args || !args[0]) throw `✳️ مثـال:\n${usedPrefix + command} https://youtube.com/watch?v=GvabaWHngzU`;
+  if (!args || !args[0]) throw `✳️ مثـال:\n${usedPrefix + command} رابط من يوتيوب`;
   if (!args[0].match(/youtu/gi)) throw `❎ تحقق من رابط اليوتيوب`;
 
   let chat = global.db.data.chats[m.chat];
@@ -40,7 +40,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 	  ❒ التحميل: ${info.videoDetails.publishDate}
 	  ❒ الرابط: ${args[0]}
 	  
-	  ⊱─━⊱༻𝑨𝒍𝒊𝒒𝒖𝒕𝒆𝒆𝒏𝒂𝒉༺⊰━─⊰`,
+	  ⊱─━⊱LEADER༺⊰━─⊰`,
         m,
         false,
         { asDocument: chat.useDocument }
@@ -59,9 +59,9 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   }
 };
 
-handler.help = ['ytmp4 <yt-link>'];
+handler.help = ['ytmp4 <الرابط>'];
 handler.tags = ['dl'];
-handler.command = ['تنزيل', 'y'];
+handler.command = ['ytmp4', 'y'];
 handler.diamond = false;
 
 export default handler;
