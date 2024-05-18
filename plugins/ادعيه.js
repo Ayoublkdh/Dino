@@ -1,7 +1,7 @@
 let handler  = async (m, { conn }) => {
-conn.reply(m.chat,`🍃🌹 *مسجـــات أدعيـــة* 🍃🌹\n          *ꔹ━━━ꔹ❰ 🍃_🌸 ❱ꔹ━━━ꔹ*\n*『${pickRandom(global.mskdjd)}』*\n       *ꔹ━━━ꔹ❰ 🍃_🌸 ❱ꔹ━━━ꔹ*`, m)
+conn.reply(m.chat,`🍃🌹 *رسائل أدعيـــة* 🍃🌹\n          *ꔹ━━━ꔹ❰ 🍃_🌸 ❱ꔹ━━━ꔹ*\n*『${pickRandom(global.mskdjd)}』*\n       *ꔹ━━━ꔹ❰ 🍃_🌸 ❱ꔹ━━━ꔹ*`, m)
 }
-handler.help = ['bzmzjdks']
+handler.help = ['دعاء']
 handler.tags = ['fun']
 handler.command = /دعاء|ادعيه/i
 export default handler
