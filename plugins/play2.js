@@ -46,7 +46,7 @@ thumbnail: await(await conn.getFile(thumbnail)).data
   }
   return conn.sendMessage(m.chat, doc, { quoted: m })
 }
-handler.help = ['play'].map(v => v + ' <pencarian>')
+handler.help = ['شغل'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
 handler.command = /^شغل$/i
 
