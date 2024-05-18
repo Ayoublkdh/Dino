@@ -16,7 +16,7 @@ let handler = async (m, {conn, usedPrefix}) => {
 ❏ *${usedPrefix}buy <cantidad>*
 ❏ *${usedPrefix}buyall*`, m, { mentions: [who] })
 }
-handler.help = ['balance']
+handler.help = ['الماس']
 handler.tags = ['econ']
 handler.command = ['bal', 'diamantes', 'diamond', 'الماس'] 
 
