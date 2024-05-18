@@ -6,7 +6,7 @@ await conn.reply(m.chat, info, m, { contextInfo: { mentionedJid: [m.sender],forw
       isForwarded: true, externalAdReply: { title: author, body: bottime,thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
       await conn.sendMessage(m.chat, {
         audio: {
-            url: "bobizaramadhan.mp3"
+            url: "نبنيظيظيظي"
         },
         seconds: 65,
         ptt: true,
