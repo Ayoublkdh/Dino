@@ -39,7 +39,7 @@ const handler = async function(m, { conn, text, usedPrefix }) {
   }
 };
 
-handler.help = ['myns <name>'];
+handler.help = ['لقب >اللقب<'];
 handler.tags = ['xp'];
 handler.command = /^(لقب)$/i;
 handler.register = true;
