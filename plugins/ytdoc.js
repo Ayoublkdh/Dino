@@ -6,7 +6,7 @@ let handler = async (m, {conn, args, isPrems, isOwner}) => {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
   };
   if (args.length === 0) {
-    m.reply(`*هذا الامر خاص بتحميل فيديوات اليوتوب على شكل document*\nسوف اعطيك مثال تكتب هكذا \n\n*.ytdoc* https://youtube.com/watch?v=JhaYzYCLiCw`);
+    m.reply(`*هذا الامر خاص بتحميل فيديوات اليوتوب على شكل document*\nسوف اعطيك مثال تكتب هكذا \n\n*.ytdoc* رابط الفيديو الذي تريد تحميله`);
     return;
   }
   try {
@@ -51,7 +51,7 @@ let handler = async (m, {conn, args, isPrems, isOwner}) => {
 };
 handler.help = ["ytd"];
 handler.tags = ["downloader"];
-handler.command = ["videodoc", "documentvid", "videodocumento", "ytdoc"];
+handler.command = ["videodoc", "documentvid", "videodocumento", "ytd"];
 handler.exp = 3;
 
 export default handler;
