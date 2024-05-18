@@ -58,7 +58,7 @@ let handler = async (m, {
                 const [, mangaTitle, chapterNumber] = inputs.match(/manga\/([^/]+)\/(\d+)\/$/);
                 const pdfTitle = `${mangaTitle.replace(/-/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase())} : ${chapterNumber}`;
 
-                await conn.sendFile(m.chat, data, pdfTitle, "╮ ───═┅─┅─┅═─── ╭ •🇾🇪_ الجنہـــــرال_بــوت_ تم تحميل المستند ╯ ───═┅─┅─┅═─── ╰", m, null, {
+                await conn.sendFile(m.chat, data, pdfTitle, "╮ ───═┅─┅─┅═─── ╭ •🟨_ الديناصـــــور بــوت، تم تحميل المستند ╯ ───═┅─┅─┅═─── ╰", m, null, {
   mimetype: 'application/pdf',
   contextInfo: {
     mentionedJid: [m.sender]
