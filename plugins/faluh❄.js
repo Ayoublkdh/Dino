@@ -11,13 +11,13 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   let json = src[Math.floor(Math.random() * src.length)]
     let caption = `*· • • ━━ 回❄回 ━━ • • ·*
 *${command.toUpperCase()}*
-*🜋↫╎السـؤال ℚ⇜《 _من في الصوره_ 》*
+*🜋↫╎السـؤال : من في الصوره_ 》*
   *🜋↫╎[الـوقـت❄٦٠ث] ↞ ${(timeout / 1000).toFixed(2)} ┇*
   *استخدم .انسحب للأنسحاب*
   *🜋↫╎الـجـائز ✦↞ ${poin} نقاط┇*
 回┇━━━ •❄• ━━━┇回
-*✠ ~تــ✍︎ــوقــيــع ↯:~*
-『 _ɠσʝσ Ⴆσƚ_ 』
+*✠ ~تـــوقــيــع ↯:~*
+『 _LEADER-DINO BOT_ 』
      `.trim()
     conn.tebakbendera[id] = [
         await conn.sendFile(m.chat, json.img, '', caption, m),
@@ -29,7 +29,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
     ]
 }
 handler.help = ['فعاليه']
-handler.tags = ['new']
+handler.tags = ['game']
 handler.command = /^فعاليه/i
 
 export default handler
