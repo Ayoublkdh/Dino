@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 تم الغاء القيد !
 @${who.split`@`[0]} يمكنك الان استخدام اوامر البوت ✓`, m, { mentions: [who] })
 }
-handler.help = ['unban @user']
+handler.help = ['الغاءالقيد @user']
 handler.tags = ['owner']
 handler.command = /^الغاء_البان|الغاءالقيد$/i
 handler.rowner = true
