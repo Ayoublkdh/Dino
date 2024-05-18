@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 let handler = async (m, { text, usedPrefix, command }) => {
-	if (!text) throw `*_✅مرحبا✌🏻، كيف يمكنني مساعدتك_*`;
+	if (!text) throw `*_✅مرحبا أنا مريم، كيف يمكنني مساعدتك_*`;
 	await m.reply(wait);
 	let putra = await fetch(`https://aemt.me/bard?text=${text}`);
 	let hasil = await putra.json();
@@ -18,7 +18,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
 		},
 	});
 };
-handler.help = ["b0 *ᴛᴇxᴛ*"];
+handler.help = ["مريم *ᴛᴇxᴛ*"];
 handler.tags = ["ai"];
-handler.command = /^(b0)$/i;
+handler.command = /^(مريم)$/i;
 export default handler;
