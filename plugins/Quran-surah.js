@@ -59,8 +59,8 @@ ${translatedTafsirArabic.text}`;
   }
 };
 
-quranSurahHandler.help = ['quran [surah_number|surah_name]'];
-quranSurahHandler.tags = ['quran', 'surah'];
-quranSurahHandler.command = ['سورة', 'سوره']
+handler.help = ['quran [surah_number|surah_name]'];
+handler.tags = ['quran', 'surah'];
+handler.command = ['سورة', 'سوره']
 
-export default quranSurahHandler;
+export default handler;
