@@ -16,7 +16,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
     },
   });
 
-  if (!text) throw `تحميل فيديو من يوتوب :\nمثال :\n*.ytv https://youtube.com/watch?v=JhaYzYCLiCw`;
+  if (!text) throw `تحميل فيديو من يوتوب :\nمثال :\n*.ytv رابط الفيديو`;
 
   const videoUrl = text;
 
