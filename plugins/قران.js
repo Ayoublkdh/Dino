@@ -123,7 +123,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
    let audio = API('lol', '/api/quran/audio/' + text, null, 'apikey')
    await conn.sendMessage(m.chat, {audio: { url: audio }, mimetype:'audio/mpeg' }, {quoted:m})
 }
-handler.help = ['alquran']
+handler.help = ['قرآن']
 handler.tags = ['islam']
 handler.command = /^(قران|قرآن)$/i
 export default handler
