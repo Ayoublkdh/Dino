@@ -4,7 +4,7 @@ m.reply(`‌⎔ ━ • 𓆩♕𝙎𝙃𝙄𝙆𝘼🐥ᵇᵒᵗ♕𓆪• ━ �
 
 *𖣘「 معلومات مطــور البــوت 」*
 
-*𓆩♕𝙎𝙃𝙄𝙆𝘼🐥♕𓆪*
+*LEADER𓆪*
 
 *instagram🔅:*
 *『 https://instagram.com/shika17sm 』*
@@ -21,6 +21,6 @@ m.reply(`‌⎔ ━ • 𓆩♕𝙎𝙃𝙄𝙆𝘼🐥ᵇᵒᵗ♕𓆪• ━ �
 }
 handler.help = ['المطور']
 handler.tags = ['infobot']
-handler.command = /^(المطور|owner)$/i
+handler.command = /^(SJSNSNZM)$/i
 
 export default handler;
