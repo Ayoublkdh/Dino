@@ -88,7 +88,7 @@ ${wait}`
         
     }
 }
-handler.help = ["foulabook"]
+handler.help = ["كتابي"]
 handler.tags = ["internet"]
 handler.command = /^(كتابي)$/i
 export default handler
