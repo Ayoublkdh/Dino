@@ -6,8 +6,8 @@ handler.before = async function(m) {
   if (room) {
     let win = '';
     let tie = false;
-    if (m.sender == room.p2 && /^(acc(ept)?|terima|نعم|gas|aceptare?|nao|gamau|rechazar|ga(k.)?bisa)/i.test(m.text) && m.isGroup && room.status == 'wait') {
-      if (/^(tolak|gamau|لا|ga(k.)?bisa)/i.test(m.text)) {
+    if (m.sender == room.p2 && /^(acc(ept)?|نعم|نعم|gas|accept|rechazar|yes)/i.test(m.text) && m.isGroup && room.status == 'wait') {
+      if (/^(لا|gamau|لا|no)/i.test(m.text)) {
         const textno = `*[❗] @${room.p2.split`@`[0]} خـاف ورفـض يلعـب اللعـبه ملغـيه🦦*`;
         m.reply(textno, null, {mentions: this.parseMention(textno)});
         delete this.suit[room.id];
