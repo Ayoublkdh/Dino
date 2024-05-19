@@ -16,7 +16,7 @@ handler.before = async function(m) {
       room.status = 'play';
       room.asal = m.chat;
       clearTimeout(room.waktu);
-      const textplay = `🎮  *بدأ التحدي*  🎮\n\n—◉ روح للبـوت خـاص واختـار🦦 @${room.p.split`@`[0]} 𝚈 @${room.p2.split`@`[0]}\n\n◉ *لو الاعـب التـاني اتاخـر بتنتـهي اللعـبه🦦\n*◉ *ادخل للبوت من هنا* wa.me/${conn.user.jid.split`@`[0]}*`;
+      const textplay = `🎮  *بدأ التحدي*  🎮\n\n—◉ اذهب للبـوت خـاص واختـار🦦 @${room.p.split`@`[0]} 𝚈 @${room.p2.split`@`[0]}\n\n◉ *لو الاعـب التـاني اتاخـر بتنتـهي اللعـبه🦦\n*◉ *ادخل للبوت من هنا* wa.me/${conn.user.jid.split`@`[0]}*`;
       m.reply(textplay, m.chat, {mentions: this.parseMention(textplay)});
       const comienzop = `*اختار قبل الاعب التانـي🐔*  
 حجر
