@@ -8,13 +8,13 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/2784677013ba9efe6cc03.jpg'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/0a24fdc585544a3320f1e.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: `test`.trim() },
-            footer: { text: `©JoAnimi for test`.trim() },  
+            footer: { text: `©LEADER for test`.trim() },  
             header: {
-                title: `test hi @${mentionId.split('@')[0]}`,
-                subtitle: `test`,
+                title: `تجربة: مرحبا @${mentionId.split('@')[0]}`,
+                subtitle: `تجربة`,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
             },
@@ -30,10 +30,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   							  	    highlight_label: 'ON',
   						  		    rows: [
   						  		    	{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'test'
+  						  		    		header: 'تحربة',
+  										      title: 'اضغط',
+  									    	  description: 'اضغط هنا',
+  								    		  id: 'تجربة'
   						  		    	}
   						  		    ]
   						  			},
@@ -41,10 +41,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'ON',
   						  				rows: [
   						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tes'
+  						  		    		header: 'تجربة',
+  										      title: 'اضغط هنا',
+  									    	  description: 'اضغط هنا',
+  								    		  id: 'تجربة'
   						  		    	}
   						  				]
   						  			},
@@ -134,7 +134,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
         conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
 
     } else {
-        conn.sendFile(m.chat, 'JoAnimi•Error.jpg', m);      
+        conn.sendFile(m.chat, 'LEADER•Error.jpg', m);      
     }    
 };
 handler.help = ['boton'];
