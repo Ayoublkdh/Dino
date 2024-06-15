@@ -31,7 +31,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    rows: [
   						  		    	{
   						  		    		header: 'تحربة',
-  										      title: 'اضغط',
+  										      title: '.طقم',
   									    	  description: 'اضغط هنا',
   								    		  id: 'تجربة'
   						  		    	}
