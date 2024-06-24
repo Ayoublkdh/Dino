@@ -45,6 +45,8 @@
     "colors": "1.4.0",
     "express": "^4.17.3",
     "cheerio-without-node-native":"*",
+    "@whiskeysockets/baileys":
+    "npm:@whiskeysockets/baileys@6.7.2",
     "file-type": "^17.1.1",
     "fluent-ffmpeg": "^2.1.2",
     "formdata-node": "^4.3.2",
